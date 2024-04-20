@@ -1,0 +1,736 @@
+body{
+    margin: 0;
+    background-color: #FFFCF3;
+    font-family: 'montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+header{
+    margin: auto;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    position: fixed;
+    height: 75px;
+    align-items: center;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding-right: 150px;
+    font-weight: 500;
+}
+
+    header nav a:hover {
+        text-decoration: underline;
+    }
+
+header p {
+    margin: 0;
+    padding-left: 150px;
+    font-weight: 800;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    margin: auto;
+    padding-top: 75px;
+}
+
+    section.hero{
+        max-height: 710px;
+        padding: 30px 150px;
+        background-color: #65CEBB;
+        display: flex;
+        justify-content: space-between;
+    }
+            h1{
+            font-size: 86px;
+            margin: auto;
+            font-weight: 800;
+    }
+            h2{
+                font-weight: 500;
+                font-size: 36px;
+                margin: auto;
+                padding-bottom: 100px;
+        }
+        div.titolo{
+            padding-top: 400px;
+        }
+            div.data{
+                width: 165px;
+            }   
+            div.luogo{
+                font-size: 23px;
+            }
+                .luogo p{
+                    margin: 0px;
+                }
+            div.giorno{
+                font-size: 67px;
+                font-weight: 800;
+            }
+                .giorno p{
+                    margin: 0px;
+                }
+            div.mese{
+                font-size: 41px;
+                font-weight: 800;
+            }
+                .mese p{
+                    margin: 0px;
+                }
+            div.anno{
+                font-size: 39px;
+            }
+                .anno p{
+                    margin: 0px;
+                }
+
+            
+    section.inaugurazione{
+        display: flex;
+        padding: 131px 150px;
+        justify-content: space-between;
+        gap: auto;
+    }
+            h3{
+                font-size: 32px;
+                font-weight: 800;
+                margin: 0;
+                width: 264px;
+            }
+            .inaugurazione p{
+                font-size: 24px;
+                margin: 0;
+                width: 750px;
+            }
+    section.artisti{
+        display: flex;
+        padding: 0px 150px 131px 150px;
+        justify-content: space-between;
+        gap: auto;
+    }
+    section.illustratori{
+        display: flex;
+        padding: 131px 150px;
+        justify-content: space-between;
+        gap: auto;
+    }
+            .illustratori p{
+                font-size: 24px;
+                margin: 0;
+                width: 750px;
+            }
+            .paragrafo{
+                display: grid;
+                gap: 30px;
+            }
+    section.illustrazioni{
+        display: flex;
+        padding: 0px 150px 131px 150px;
+        justify-content: space-between;
+        gap: auto;
+    }
+    section.info{
+        display: flex;
+        padding: 0px 150px 131px 150px;
+        justify-content: space-between;
+        gap: auto;
+    }
+            .info p{
+                font-size: 24px;
+                margin: 0;
+                width: 750px;
+            }
+    section.indicazioni{
+        display: flex;
+        padding: 131px 150px;
+        justify-content: space-between;
+        gap: auto;
+    }
+            .indicazioni p{
+                font-size: 24px;
+                margin: 0;
+                width: 750px;
+            }
+    section.lab{
+        display: flex;
+        padding: 0px 150px 131px 150px;
+        justify-content: space-between;
+        gap: auto;
+    }
+            .lab p{
+                font-size: 24px;
+                margin: 0;
+                width: 750px;
+            }
+    section.bio{
+        display: flex;
+        padding: 131px 150px;
+        justify-content: space-between;
+        gap: auto;
+    }
+            .bio p{
+                font-size: 24px;
+                margin: 0;
+                width: 750px;
+            }
+    section.opere{
+        display: flex;
+        padding: 0px 150px 131px 150px;
+        justify-content: space-between;
+        gap: auto;
+    }
+
+            div.card{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                width: 750px;
+                gap: 16px;
+            }
+            div.card img {
+                max-width: 100%;
+                height: 230px;
+                width: 240px;
+                object-fit: cover;
+                border-radius: 16px 16px 0px 0px;
+            }
+            div.card a{
+                text-decoration: none;
+                color: #FFFCF3;
+            }
+            div.card li{
+                text-align: center;
+            }
+            div.card a:hover{
+                text-decoration: underline;
+            }
+            div.link{
+                font-size: 13px;
+                margin: 0px;
+                padding: 10px 10px 15px 10px;
+                list-style: none;
+            }
+            div.AJ{
+                background-color: black;
+                border-radius: 16px;
+            }
+            div.AJ img{
+                object-position: 100% 30%;
+            }
+            div.ER{
+                background-color: black;
+                border-radius: 16px;
+            }
+            div.HC{
+                background-color: black;
+                border-radius: 16px;
+            }
+            div.I{
+                background-color: black;
+                border-radius: 16px;
+            }
+            div.JJ{
+                background-color: black;
+                border-radius: 16px;
+            }
+            div.JJ img{
+                object-position: 100% 0%;
+            }
+            div.MP{
+                background-color: black;
+                border-radius: 16px;
+            }
+            div.MT{
+                background-color: black;
+                border-radius: 16px;
+            }
+            div.PB{
+                background-color: black;
+                border-radius: 16px;
+            }
+            div.SM{
+                background-color: black;
+                border-radius: 16px;
+            }
+            div.cards ul{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                width: 750px;
+                gap: 16px;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            div.cards img {
+                max-width: 100%;
+                height: 285px;
+                width: 240px;
+                object-fit: cover;
+                border-radius: 16px 16px 16px 16px;
+            }
+            div.cards img:hover{
+                border: solid 5px black;
+                box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+            }
+            .modal {
+                display: none;
+                position: fixed;
+                z-index: 9999;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgba(0, 0, 0, 0.8);
+            }
+            
+            .modal-content {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+            }
+            
+            .modal img {
+                max-width: 80%;
+                max-height: 80%;
+                border-radius: 8px;
+            }
+            
+            .close {
+                color: #fff;
+                position: absolute;
+                top: 20px;
+                right: 30px;
+                font-size: 30px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            
+            .close:hover {
+                color: #ccc;
+            }
+footer{
+    max-width: auto;
+    margin: 0;
+    padding: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    align-items: center;
+}
+
+footer nav ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+    footer nav a:hover {
+        text-decoration: underline;
+    }
+
+footer p {
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 1230px){
+    header {
+        font-size: 15px;
+    }
+    header nav ul{
+        display: block;
+    }
+    div.data {
+        width: 140px;
+    }
+    div.luogo{
+        font-size: 19px;
+    }
+    div.giorno{
+        font-size: 56px;
+    }
+    div.mese {
+        font-size: 35px;
+    }
+    div.anno {
+        font-size: 30px;
+    }
+    h1{
+        font-size: 70px;
+    }
+    h2{
+        font-size: 29px;
+    }
+    h3{
+        font-size: 25px;
+        width: 190px;
+    }
+    .inaugurazione p{
+        font-size: 20px;
+        width: 600px;
+    }
+    .illustratori p{
+        font-size: 20px;
+        width: 600px;
+    }
+    .info p{
+        font-size: 20px;
+        width: 600px;
+    }
+    .indicazioni p{
+        font-size: 20px;
+        width: 600px;
+    }
+    .lab p{
+        font-size: 20px;
+        width: 600px;
+    }
+    .bio p{
+        font-size: 20px;
+        width: 600px;
+    }
+    div.card {
+        width: 600px;
+    }
+    div.cards ul{
+        width: 600px;
+    }
+    footer {
+        font-size: 15px;
+    }
+    footer nav ul{
+        display: block;
+    }
+
+}
+
+@media (max-width: 1050px){
+    header {
+        font-size: 12px;
+    }
+    header nav ul{
+        display: block;
+    }
+    div.data {
+        width: 120px;
+    }
+    div.luogo{
+        font-size: 16px;
+    }
+    div.giorno{
+        font-size: 47px;
+    }
+    div.mese {
+        font-size: 29px;
+    }
+    div.anno {
+        font-size: 26px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 15px;
+        width: 170px;
+    }
+    .inaugurazione p{
+        font-size: 15px;
+        width: 500px;
+    }
+    .illustratori p{
+        font-size: 15px;
+        width: 450px;
+    }
+    .info p{
+        font-size: 15px;
+        width: 450px;
+    }
+    .indicazioni p{
+        font-size: 15px;
+        width: 450px;
+    }
+    .lab p{
+        font-size: 15px;
+        width: 450px;
+    }
+    .bio p{
+        font-size: 15px;
+        width: 450px;
+    }
+    div.card {
+        width: 450px;
+    }
+    div.card img{
+        height: 170px;
+    }
+    div.cards ul{
+        width: 450px;
+    }
+    div.cards img{
+        height: 230px;
+    }
+    div.link{
+        font-size: 11px;
+    }
+    footer {
+        font-size: 12px;
+    }
+    footer nav ul{
+        display: block;
+    }
+
+}
+
+@media (max-width: 940px){
+    div.data {
+        width: 100px;
+    }
+    div.luogo{
+        font-size: 14px;
+    }
+    div.giorno{
+        font-size: 40px;
+    }
+    div.mese {
+        font-size: 25px;
+    }
+    div.anno {
+        font-size: 23px;
+    }
+    h1{
+        font-size: 55px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    h3{
+        font-size: 12px;
+        width: 100px;
+    }
+    .inaugurazione p{
+        font-size: 10px;
+        width: 350px;
+    }
+    .illustratori p{
+        font-size: 10px;
+        width: 350px;
+    }
+    .info p{
+        font-size: 10px;
+        width: 350px;
+    }
+    .indicazioni p{
+        font-size: 10px;
+        width: 350px;
+    }
+    .lab p{
+        font-size: 10px;
+        width: 350px;
+    }
+    .bio p{
+        font-size: 10px;
+        width: 350px;
+    }
+    div.card {
+        width: 350px;
+    }
+    div.card img{
+        height: 130px;
+    }
+    div.cards ul{
+        width: 350px;
+    }
+    div.cards img{
+        height: 160px;
+    }
+    div.link{
+        font-size: 10px;
+    }
+    div.cards img:hover{
+        border: solid 4px black;
+    }
+}
+
+@media (max-width: 750px){
+    header p{
+        padding-left: 80px;
+    }
+    header nav ul{
+        padding-right: 80px;
+    }
+    section.hero{
+        padding: 30px 80px;
+    }
+    div.titolo {
+        padding-top: 300px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 21px;
+    }
+    h3{
+        font-size: 12px;
+        width: 100px;
+    }
+    section.inaugurazione{
+        padding: 131px 80px;
+    }
+    .inaugurazione p{
+        width: 300px;
+    }
+    section.illustratori{
+        padding: 131px 80px;
+    }
+    .illustratori p{
+        width: 300px;
+    }
+    section.info{
+        padding: 131px 80px;
+    }
+    .info p{
+        width: 300px;
+    }
+    section.indicazioni{
+        padding: 131px 80px;
+    }
+    .indicazioni p{
+        width: 300px;
+    }
+    section.lab{
+        padding: 131px 80px;
+    }
+    .lab p{
+        width: 300px;
+    }
+    section.bio{
+        padding: 131px 80px;
+    }
+    .bio p{
+        width: 300px;
+    }
+    section.artisti{
+        padding: 0px 80px 131px 80px;
+    }
+    section.illstrazioni{
+        padding: 0px 80px 131px 80px;
+    }
+    section.opere{
+        padding: 0px 80px 131px 80px;
+    }
+    div.card {
+        width: 300px;
+    }
+    div.card img{
+        height: 100px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    div.cards ul{
+        width: 300px;
+    }
+    div.cards img{
+        height: 130px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    div.cards img:hover{
+        border: solid 4px black;
+    }
+    div.AJ{
+        border-radius: 10px;
+    }
+    div.ER{
+        border-radius: 10px;
+    }
+    div.HC{
+        border-radius: 10px;
+    }
+    div.I{
+        border-radius: 10px;
+    }
+    div.JJ{
+        border-radius: 10px;
+    }
+    div.MP{
+        border-radius: 10px;
+    }
+    div.MT{
+        border-radius: 10px;
+    }
+    div.PB{
+        border-radius: 10px;
+    }
+    div.SM{
+        border-radius: 10px;
+    }
+    footer {
+        padding: 30px 80px;  
+    }
+}
+
+@media (max-width: 600px){
+    .inaugurazione p{
+        width: 200px;
+    }
+    .illustratori p{
+        width: 200px;
+    }
+    .info p{
+        width: 200px;
+    }
+    .indicazioni p{
+        width: 200px;
+    }
+    .lab p{
+        width: 200px;
+    }
+    .bio p{
+        width: 200px;
+    }
+    div.card {
+        width: 200px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    div.card img{
+        height: 90px;
+    }
+    div.cards ul{
+        width: 200px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    div.cards img{
+        height: 120px;
+    }
+    div.cards img:hover{
+        border: solid 3px black;
+    }
+}
