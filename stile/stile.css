@@ -641,7 +641,7 @@ footer a {
     section.artisti{
         padding: 0px 80px 131px 80px;
     }
-    section.illstrazioni{
+    section.illustrazioni{
         padding: 0px 80px 131px 80px;
     }
     section.opere{
@@ -698,72 +698,185 @@ footer a {
 
 @media (max-width: 600px){
     header p{
-        padding-left: 40px;
+        padding-left: 50px;
     }
     header nav ul{
-        padding-right: 40px;
+        padding-right: 50px;
     }
     h1 {
-        font-size: 40px;
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 19px;
     }
     section.hero{
-        padding: 30px 40px;
+        padding: 30px 50px;
     }
     section.inaugurazione{
-        padding: 131px 40px;
+        padding: 131px 50px;
     }
     .inaugurazione p{
-        width: 150px;
+        width: 250px;
     }
     section.illustratori{
-        padding: 131px 40px;
+        padding: 131px 50px;
     }
     .illustratori p{
-        width: 150px;
+        width: 250px;
     }
     section.info{
-        padding: 131px 40px;
+        padding: 131px 50px;
     }
     .info p{
-        width: 150px;
+        width: 250px;
     }
     section.indicazioni{
-        padding: 131px 40px;
+        padding: 131px 50px;
     }
     .indicazioni p{
-        width: 150px;
+        width: 250px;
     }
     section.lab{
-        padding: 131px 40px;
+        padding: 131px 50px;
     }
     .lab p{
-        width: 150px;
+        width: 250px;
     }
     section.bio{
-        padding: 131px 40px;
+        padding: 131px 50px;
     }
     .bio p{
-        width: 150px;
+        width: 250px;
     }
     section.artisti{
-        padding: 0px 40px 131px 40px;
+        padding: 0px 50px 131px 50px;
     }
-    section.illstrazioni{
-        padding: 0px 40px 131px 40px;
+    section.illustrazioni{
+        padding: 0px 50px 131px 50px;
     }
     section.opere{
-        padding: 0px 40px 131px 40px;
+        padding: 0px 50px 131px 50px;
     }
     div.card {
-        width: 150px;
+        width: 250px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    div.card img{
+        height: 120px;
+    }
+    div.cards ul{
+        width: 250px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    div.cards img{
+        height: 150px;
+    }
+    div.cards img:hover{
+        border: solid 3px black;
+    }
+    footer {
+        padding: 30px 50px;  
+    }
+    footer p{
+        width: 170px;  
+    }
+}
+@media (max-width: 400px){
+    header p{
+        padding-left: 30px;
+    }
+    header nav ul{
+        padding-right: 30px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 14px;
+        width: 110px;
+    }
+    div.data {
+        width: 80px;
+    }
+    div.luogo{
+        font-size: 11px;
+    }
+    div.giorno{
+        font-size: 32px;
+    }
+    div.mese {
+        font-size: 20px;
+    }
+    div.anno {
+        font-size: 18px;
+    }
+    section.hero{
+        padding: 30px 30px;
+    }
+    section.inaugurazione{
+        padding: 131px 30px;
+    }
+    .inaugurazione p{
+        font-size: 14px;
+        width: 100px;
+    }
+    section.illustratori{
+        padding: 131px 30px;
+    }
+    .illustratori p{
+        font-size: 14px;
+        width: 100px;
+    }
+    section.info{
+        padding: 131px 30px;
+    }
+    .info p{
+        font-size: 14px;
+        width: 100px;
+    }
+    section.indicazioni{
+        padding: 131px 30px;
+    }
+    .indicazioni p{
+        font-size: 14px;
+        width: 100px;
+    }
+    section.lab{
+        padding: 131px 30px;
+    }
+    .lab p{
+        font-size: 14px;
+        width: 100px;
+    }
+    section.bio{
+        padding: 131px 30px;
+    }
+    .bio p{
+        font-size: 14px;
+        width: 100px;
+    }
+    section.artisti{
+        padding: 0px 30px 131px 30px;
+    }
+    section.illustrazioni{
+        padding: 0px 30px 131px 30px;
+    }
+    section.opere{
+        padding: 0px 30px 131px 30px;
+    }
+    div.card {
+        width: 100px;
         grid-template-columns: repeat(1, 1fr);
     }
     div.card img{
-        height: 140px;
+        height: 110px;
     }
     div.cards ul{
-        width: 150px;
-        grid-template-columns: repeat(2, 1fr);
+        width: 100px;
+        grid-template-columns: repeat(1, 1fr);
     }
     div.cards img{
         height: 120px;
@@ -772,9 +885,9 @@ footer a {
         border: solid 3px black;
     }
     footer {
-        padding: 30px 40px;  
+        padding: 30px 30px;  
     }
     footer p{
-        width: 170px;  
+        width: 100px;  
     }
 }
