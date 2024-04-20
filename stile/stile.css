@@ -879,7 +879,7 @@ footer a {
         grid-template-columns: repeat(1, 1fr);
     }
     div.cards img{
-        height: 120px;
+        height: 110px;
     }
     div.cards img:hover{
         border: solid 3px black;
