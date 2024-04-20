@@ -533,31 +533,31 @@ footer a {
         font-size: 22px;
     }
     h3{
-        font-size: 12px;
+        font-size: 15px;
         width: 100px;
     }
     .inaugurazione p{
-        font-size: 10px;
+        font-size: 15px;
         width: 350px;
     }
     .illustratori p{
-        font-size: 10px;
+        font-size: 15px;
         width: 350px;
     }
     .info p{
-        font-size: 10px;
+        font-size: 15px;
         width: 350px;
     }
     .indicazioni p{
-        font-size: 10px;
+        font-size: 15px;
         width: 350px;
     }
     .lab p{
-        font-size: 10px;
+        font-size: 15px;
         width: 350px;
     }
     .bio p{
-        font-size: 10px;
+        font-size: 15px;
         width: 350px;
     }
     div.card {
@@ -600,7 +600,6 @@ footer a {
         font-size: 21px;
     }
     h3{
-        font-size: 12px;
         width: 100px;
     }
     section.inaugurazione{
@@ -698,33 +697,72 @@ footer a {
 }
 
 @media (max-width: 600px){
+    header p{
+        padding-left: 40px;
+    }
+    header nav ul{
+        padding-right: 40px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    section.hero{
+        padding: 30px 40px;
+    }
+    section.inaugurazione{
+        padding: 131px 40px;
+    }
     .inaugurazione p{
-        width: 200px;
+        width: 150px;
+    }
+    section.illustratori{
+        padding: 131px 40px;
     }
     .illustratori p{
-        width: 200px;
+        width: 150px;
+    }
+    section.info{
+        padding: 131px 40px;
     }
     .info p{
-        width: 200px;
+        width: 150px;
+    }
+    section.indicazioni{
+        padding: 131px 40px;
     }
     .indicazioni p{
-        width: 200px;
+        width: 150px;
+    }
+    section.lab{
+        padding: 131px 40px;
     }
     .lab p{
-        width: 200px;
+        width: 150px;
+    }
+    section.bio{
+        padding: 131px 40px;
     }
     .bio p{
-        width: 200px;
+        width: 150px;
+    }
+    section.artisti{
+        padding: 0px 40px 131px 40px;
+    }
+    section.illstrazioni{
+        padding: 0px 40px 131px 40px;
+    }
+    section.opere{
+        padding: 0px 40px 131px 40px;
     }
     div.card {
-        width: 200px;
-        grid-template-columns: repeat(2, 1fr);
+        width: 150px;
+        grid-template-columns: repeat(1, 1fr);
     }
     div.card img{
-        height: 90px;
+        height: 140px;
     }
     div.cards ul{
-        width: 200px;
+        width: 150px;
         grid-template-columns: repeat(2, 1fr);
     }
     div.cards img{
@@ -732,5 +770,11 @@ footer a {
     }
     div.cards img:hover{
         border: solid 3px black;
+    }
+    footer {
+        padding: 30px 40px;  
+    }
+    footer p{
+        width: 170px;  
     }
 }
