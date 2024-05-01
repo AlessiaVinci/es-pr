@@ -615,7 +615,7 @@ footer a {
         width: 300px;
     }
     section.info{
-        padding: 131px 80px;
+        padding: 0px 80px 131px 80px;
     }
     .info p{
         width: 300px;
@@ -627,7 +627,7 @@ footer a {
         width: 300px;
     }
     section.lab{
-        padding: 131px 80px;
+        padding: 0px 80px 131px 80px;
     }
     .lab p{
         width: 300px;
@@ -725,7 +725,7 @@ footer a {
         width: 250px;
     }
     section.info{
-        padding: 131px 50px;
+        padding: 0px 50px 131px 50px;
     }
     .info p{
         width: 250px;
@@ -737,7 +737,7 @@ footer a {
         width: 250px;
     }
     section.lab{
-        padding: 131px 50px;
+        padding: 0px 50px 131px 50px;
     }
     .lab p{
         width: 250px;
@@ -770,6 +770,100 @@ footer a {
     }
     div.cards img{
         height: 150px;
+    }
+    div.cards img:hover{
+        border: solid 3px black;
+    }
+    footer {
+        padding: 30px 50px;  
+    }
+    footer p{
+        width: 170px;  
+    }
+}
+@media (max-width: 450px){
+    header p{
+        padding-left: 50px;
+    }
+    header nav ul{
+        padding-right: 50px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    h3{
+        font-size: 13px;
+    }
+    section.hero{
+        padding: 30px 50px;
+    }
+    section.inaugurazione{
+        padding: 131px 50px;
+    }
+    .inaugurazione p{
+        width: 130px;
+        font-size: 13px;
+    }
+    section.illustratori{
+        padding: 131px 50px;
+    }
+    .illustratori p{
+        width: 130px;
+        font-size: 13px;
+    }
+    section.info{
+        padding: 0px 50px 131px 50px;
+    }
+    .info p{
+        width: 130px;
+        font-size: 13px;
+    }
+    section.indicazioni{
+        padding: 131px 50px;
+    }
+    .indicazioni p{
+        width: 130px;
+        font-size: 13px;
+    }
+    section.lab{
+        padding: 0px 50px 131px 50px;
+    }
+    .lab p{
+        width: 130px;
+        font-size: 13px;
+    }
+    section.bio{
+        padding: 131px 50px;
+    }
+    .bio p{
+        width: 130px;
+        font-size: 13px;
+    }
+    section.artisti{
+        padding: 0px 50px 131px 50px;
+    }
+    section.illustrazioni{
+        padding: 0px 50px 131px 50px;
+    }
+    section.opere{
+        padding: 0px 50px 131px 50px;
+    }
+    div.card {
+        width: 130px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    div.card img{
+        height: 150px;
+    }
+    div.cards ul{
+        width: 130px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    div.cards img{
+        height: 220px;
     }
     div.cards img:hover{
         border: solid 3px black;
@@ -831,7 +925,7 @@ footer a {
         width: 100px;
     }
     section.info{
-        padding: 131px 30px;
+        padding: 0px 30px 131px 30px;
     }
     .info p{
         font-size: 14px;
@@ -845,7 +939,7 @@ footer a {
         width: 100px;
     }
     section.lab{
-        padding: 131px 30px;
+        padding: 0px 30px 131px 30px;
     }
     .lab p{
         font-size: 14px;
