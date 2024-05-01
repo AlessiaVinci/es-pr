@@ -783,10 +783,10 @@ footer a {
 }
 @media (max-width: 450px){
     header p{
-        padding-left: 30px;
+        padding-left: 20px;
     }
     header nav ul{
-        padding-right: 30px;
+        padding-right: 20px;
     }
     h1 {
         font-size: 30px;
@@ -798,58 +798,58 @@ footer a {
         font-size: 13px;
     }
     section.hero{
-        padding: 30px 30px;
+        padding: 30px 20px;
     }
     section.inaugurazione{
-        padding: 131px 30px;
+        padding: 100px 20px;
     }
     .inaugurazione p{
         width: 130px;
         font-size: 13px;
     }
     section.illustratori{
-        padding: 131px 30px;
+        padding: 100px 20px;
     }
     .illustratori p{
         width: 130px;
         font-size: 13px;
     }
     section.info{
-        padding: 0px 30px 131px 30px;
+        padding: 0px 20px 100px 20px;
     }
     .info p{
         width: 130px;
         font-size: 13px;
     }
     section.indicazioni{
-        padding: 131px 30px;
+        padding: 100px 20px;
     }
     .indicazioni p{
         width: 130px;
         font-size: 13px;
     }
     section.lab{
-        padding: 0px 30px 131px 30px;
+        padding: 0px 20px 100px 20px;
     }
     .lab p{
         width: 130px;
         font-size: 13px;
     }
     section.bio{
-        padding: 131px 30px;
+        padding: 100px 20px;
     }
     .bio p{
         width: 130px;
         font-size: 13px;
     }
     section.artisti{
-        padding: 0px 30px 131px 30px;
+        padding: 0px 20px 100px 20px;
     }
     section.illustrazioni{
-        padding: 0px 30px 131px 30px;
+        padding: 0px 20px 100px 20px;
     }
     section.opere{
-        padding: 0px 30px 131px 30px;
+        padding: 0px 20px 100px 20px;
     }
     div.card {
         width: 130px;
@@ -869,7 +869,7 @@ footer a {
         border: solid 3px black;
     }
     footer {
-        padding: 30px 30px;  
+        padding: 30px 20px;  
     }
     footer p{
         width: 170px;  
