@@ -431,6 +431,15 @@ footer a {
 }
 
 @media (max-width: 1050px){
+    header p{
+        padding-left: 110px;
+    }
+    header nav ul{
+        padding-right: 110px;
+    }
+    section.hero{
+        padding: 30px 110px;
+    }
     header {
         font-size: 12px;
     }
@@ -461,6 +470,33 @@ footer a {
     h3{
         font-size: 15px;
         width: 170px;
+    }
+    section.inaugurazione{
+        padding: 131px 110px;
+    }
+    section.illustratori{
+        padding: 131px 110px;
+    }
+    section.info{
+        padding: 0px 110px 131px 110px;
+    }
+    section.indicazioni{
+        padding: 131px 110px;
+    }
+    section.lab{
+        padding: 0px 110px 131px 110px;
+    }
+    section.bio{
+        padding: 131px 110px;
+    }
+    section.artisti{
+        padding: 0px 110px 131px 110px;
+    }
+    section.illustrazioni{
+        padding: 0px 110px 131px 110px;
+    }
+    section.opere{
+        padding: 0px 110px 131px 110px;
     }
     .inaugurazione p{
         font-size: 15px;
@@ -511,6 +547,15 @@ footer a {
 }
 
 @media (max-width: 940px){
+    header p{
+        padding-left: 90px;
+    }
+    header nav ul{
+        padding-right: 90px;
+    }
+    section.hero{
+        padding: 30px 90px;
+    }
     div.data {
         width: 100px;
     }
@@ -535,6 +580,33 @@ footer a {
     h3{
         font-size: 15px;
         width: 100px;
+    }
+    section.inaugurazione{
+        padding: 131px 90px;
+    }
+    section.illustratori{
+        padding: 131px 90px;
+    }
+    section.info{
+        padding: 0px 90px 131px 90px;
+    }
+    section.indicazioni{
+        padding: 131px 90px;
+    }
+    section.lab{
+        padding: 0px 90px 131px 90px;
+    }
+    section.bio{
+        padding: 131px 90px;
+    }
+    section.artisti{
+        padding: 0px 90px 131px 90px;
+    }
+    section.illustrazioni{
+        padding: 0px 90px 131px 90px;
+    }
+    section.opere{
+        padding: 0px 90px 131px 90px;
     }
     .inaugurazione p{
         font-size: 15px;
